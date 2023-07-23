@@ -1,0 +1,218 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(1,54,1);
+    background: linear-gradient(327deg, rgba(1,54,1,1) 0%, rgba(4,230,90,1) 80%);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header.Card-Spotify{
+    height: 600px;
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(4, 230, 90);
+    border-radius: 30px;    
+    padding: 0px 0px 0px 25px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-left: 5px solid rgb(255, 255, 255);
+
+}
+
+main.Card-Principal{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+div.informaçoes{
+    margin-right: 12px;
+    height: 100%;
+    width: 370px;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: start;
+    color: rgb(255, 255, 255);
+}
+
+#Música{
+    margin-top: 4rem;
+}
+
+#preço{
+    margin-right: 5rem;
+    font-size: 34px;
+    font-weight: 900;   
+}
+
+#lista{
+   margin-top: 1rem;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   color: rgb(255, 255, 255);
+   font-size: 17px;
+   font-weight: 900;
+}
+
+div.Sing-Up{
+    height: 600px;
+    width: 468px;
+    gap: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(23, 23, 26);
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+#icone{
+    margin-top: 0.1rem;
+    margin-left: 11rem;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-items: center;
+    
+}
+
+div.btn{
+   height: 200px;
+   width: 400px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+#Cadastre-1{
+    height: 25px;
+    width: 110px;
+    background-color: transparent;
+    font-weight: 600;   
+    font-size: 20px;
+    color:rgb(201, 191, 191);
+    border: none;
+    border-right: 3px solid rgb(4, 230, 90);
+
+}
+
+#Login-1{
+    height: 25px;
+    width: 150px;
+    background-color: transparent;
+    font-weight: 600;   
+    font-size: 20px;
+    color: rgb(201, 191, 191);
+    border: none;
+    border-right: 3px solid rgb(4, 230, 90);
+
+}
+
+
+div.Cadastre{
+    height: 400px;
+    display: flex;
+    justify-content: start;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+#inputs{
+    height: 35px;
+    width: 270px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(131, 128, 128);
+    font-weight: 500;
+    font-size: 15px;
+}   
+
+div.btns2{
+    height: 80px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Cadastre-2{
+    height: 50px;
+    width: 170px;
+    background-color: transparent;
+    font-weight: 600;   
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 0.2s;
+}
+
+#Cadastre-2::after{
+    content: "";
+    height: 3px;
+    width: 0px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 10%;
+    left: 60%;
+    background-color: #1fff41;
+    transition: 0.80s;
+}
+
+#Cadastre-2:hover:after{
+    width: 150px;
+    transition: 0.80s;
+    animation: ease-in-out;
+}
+
+div.Termos{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#Checkbox{
+    display: flex;
+    justify-content: center;
+}
+
+#termos{
+    font-size: 15px;
+    color: rgb(5, 177, 71);
+}
+
+
+
+
+
+
+
+
